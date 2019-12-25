@@ -12,3 +12,9 @@
 ``` 
 gatsby develop
 ```
+
+or 
+
+```
+gatsby playground
+```
