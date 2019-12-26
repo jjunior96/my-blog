@@ -12,8 +12,12 @@ const SocialLinks = () => (
         const Icon = Icons[link.label]
 
         return (
-          <S.SocialLinksItem key={i} >
-
+          <S.SocialLinksItem key={i}>
+            <S.SocialLinksLink href={link.url} title={link.label} target="_blank">
+              <S.IconWrapper>
+                <Icon />
+              </S.IconWrapper>
+            </S.SocialLinksLink>
           </S.SocialLinksItem>
         )
       })}
