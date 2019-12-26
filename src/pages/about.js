@@ -6,14 +6,6 @@ import Layout from '../components/Layout'
 const AboutPage = () => (
   <Layout>
     <h1> About Page </h1>
-    <ul>
-      <li>
-        <Link to="/about" activeStyle={ {color: 'red'} }>About</Link>
-      </li>
-      <li>
-        <Link to="/">Go to home</Link>
-      </li>
-    </ul>
   </Layout>
 )
 
