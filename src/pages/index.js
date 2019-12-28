@@ -6,7 +6,7 @@ import SEO from "../components/seo"
 
 import PostItem from '../components/PostItem'
 
-const IndexPage = () => (
+const IndexPage = () => (  
   <Layout>
     <SEO title="Home" />
     <PostItem 
