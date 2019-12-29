@@ -4,7 +4,7 @@ date: 2019-12-28 08:54:21
 title: First Post
 description: Minha experiencia em criar meu próprio blog.
 category: Misc
-background: "#7AAB13"
+background: "blue"
 ---
 
 <!-- Post em si -->
