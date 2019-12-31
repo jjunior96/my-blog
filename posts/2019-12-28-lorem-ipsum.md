@@ -9,7 +9,7 @@ background: "#7AAB13"
 
 <!-- Post em si -->
 
-# Lorem ipsum
+# Exmplo de titulo aqui
 
 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi iaculis bibendum augue, a 
 consectetur ipsum pellentesque in. Ut et lectus dolor. Morbi, [adipiscing](http://google.com)
