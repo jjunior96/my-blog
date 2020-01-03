@@ -9,12 +9,6 @@
 
 ## 🚀 Quick start
 
-<<<<<<< HEAD
-<!-- First commit from 2020 -->
-=======
-<!-- Juntar branch -->
->>>>>>> my-temporary-work
-
 ``` 
 gatsby develop
 ```
