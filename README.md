@@ -7,7 +7,7 @@
   Gatsby's default starter
 </h1>
 
-## 🚀 Quick start
+## 🚀 Quick start run
 
 ``` 
 gatsby develop
