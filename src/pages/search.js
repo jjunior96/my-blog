@@ -1,14 +1,13 @@
 import React from 'react'
-import { Link } from 'gatsby'
 
 import Layout from '../components/Layout'
 import SEO from '../components/seo'
 
-const AboutPage = () => (
+const SearchPage = () => (
   <Layout>
-    <SEO title="About"/>
-    <h1> About Page </h1>
+    <SEO title="Search"/>
+    <h1> Search Page </h1>
   </Layout>
 )
 
-export default AboutPage
+export default SearchPage
