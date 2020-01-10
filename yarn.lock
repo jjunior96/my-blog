@@ -5752,6 +5752,14 @@ gatsby-core-utils@^1.0.25:
     ci-info "2.0.0"
     node-object-hash "^2.0.0"
 
+gatsby-core-utils@^1.0.26:
+  version "1.0.26"
+  resolved "https://registry.yarnpkg.com/gatsby-core-utils/-/gatsby-core-utils-1.0.26.tgz#e1cbdfad498d58d677d9d74f21a1ede661b49d6f"
+  integrity sha512-NPflmXmyTcg3x2mp6cqp/51QeAHRKepfbf0X4erDsnVlewFJuGTe+25ZJvWkkwU2g1cPAxuwzlPe0jOL92iU4A==
+  dependencies:
+    ci-info "2.0.0"
+    node-object-hash "^2.0.0"
+
 gatsby-graphiql-explorer@^0.2.31:
   version "0.2.31"
   resolved "https://registry.yarnpkg.com/gatsby-graphiql-explorer/-/gatsby-graphiql-explorer-0.2.31.tgz#cb7a7ed2749085a28612f11ef37a35de54809710"
@@ -5931,18 +5939,18 @@ gatsby-remark-relative-images@^0.2.3:
     slash "^2.0.0"
     unist-util-select "^1.5.0"
 
-gatsby-source-filesystem@^2.1.40:
-  version "2.1.40"
-  resolved "https://registry.yarnpkg.com/gatsby-source-filesystem/-/gatsby-source-filesystem-2.1.40.tgz#482f87a3b1617132b4f4faa64a75d350d8581646"
-  integrity sha512-lCiuNbrb7yl97JjViP+O/TM0rtgDAFJsiebTsY3aUXOzlzIcfVDS7j7ag/H+aGAk9vs1BgGoa+8XSWjP3i90Og==
+gatsby-source-filesystem@^2.1.46:
+  version "2.1.46"
+  resolved "https://registry.yarnpkg.com/gatsby-source-filesystem/-/gatsby-source-filesystem-2.1.46.tgz#ab90c4520f0664218c7334dbec6cd90acc85cf9d"
+  integrity sha512-5LC90+qMKK+/hJzZxKcazx5JvvOO1wHH+ZE7JDSHSzZ1QB+RKWnkvG4a7n6dyiFybo1HN3ql5YQXQLkBEiIfMg==
   dependencies:
-    "@babel/runtime" "^7.7.4"
+    "@babel/runtime" "^7.7.6"
     better-queue "^3.8.10"
-    bluebird "^3.7.1"
+    bluebird "^3.7.2"
     chokidar "3.3.0"
     file-type "^12.4.0"
     fs-extra "^8.1.0"
-    gatsby-core-utils "^1.0.22"
+    gatsby-core-utils "^1.0.26"
     got "^7.1.0"
     md5-file "^3.2.3"
     mime "^2.4.4"
@@ -5950,7 +5958,7 @@ gatsby-source-filesystem@^2.1.40:
     progress "^2.0.3"
     read-chunk "^3.2.0"
     valid-url "^1.0.9"
-    xstate "^4.6.7"
+    xstate "^4.7.2"
 
 gatsby-telemetry@^1.1.44:
   version "1.1.44"
@@ -13768,7 +13776,7 @@ xmlhttprequest-ssl@~1.5.4:
   resolved "https://registry.yarnpkg.com/xmlhttprequest-ssl/-/xmlhttprequest-ssl-1.5.5.tgz#c2876b06168aadc40e57d97e81191ac8f4398b3e"
   integrity sha1-wodrBhaKrcQOV9l+gRkayPQ5iz4=
 
-xstate@^4.6.7, xstate@^4.7.2:
+xstate@^4.7.2:
   version "4.7.2"
   resolved "https://registry.yarnpkg.com/xstate/-/xstate-4.7.2.tgz#d777b83053fb21b346cc944df887ba27a18dd758"
   integrity sha512-vAIEf5CuLPNgH5obVP7WS1U+I91L+vSKLpradVn6AhbyFrccWlNQwFVuYktInafgkvA6z4w9rLkuRKBZ5izkSA==
