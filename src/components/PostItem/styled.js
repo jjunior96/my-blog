@@ -42,6 +42,10 @@ export const PostItemTag = styled.div`
   min-height: 90px;
   min-width: 90px;
   text-transform: uppercase;
+
+  body#grid & {
+    margin-bottom: 1.5rem;
+  }
 `
 
 export const PostItemInfo = styled.div`
