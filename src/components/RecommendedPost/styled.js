@@ -1,6 +1,7 @@
 import styled from 'styled-components'
 import media from 'styled-media-query'
-import { Link } from 'gatsby'
+import AniLink from 'gatsby-plugin-transition-link/AniLink'
+
 
 export const RecommnendedWrapper = styled.section`
   border-bottom: 1px solid var(--borders);
@@ -9,7 +10,7 @@ export const RecommnendedWrapper = styled.section`
   display: flex;
 `
 
-export const RecommnendedLink = styled(Link)`
+export const RecommnendedLink = styled(AniLink)`
   align-items: center;
   background: var(--mediumBackground);
   color: var(--hightlight);

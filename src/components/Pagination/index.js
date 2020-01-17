@@ -5,13 +5,13 @@ import * as S from './styled'
 
 const Pagination = ({ isFirst, isLast, currentPage, numPages, prevPage, nextPage }) => (
   <S.PaginationWrapper>
-    {!isFirst && <S.PaginationLink to={prevPage}>← página anterior</S.PaginationLink>}
+    {!isFirst && <S.PaginationLink to={prevPage} cover direction="left" bg="#16202c" duration={0.6}>← página anterior</S.PaginationLink>}
     
     <p>
       {currentPage} de {numPages}
     </p> 
 
-    {!isLast && <S.PaginationLink to={nextPage}>próxima página →</S.PaginationLink>}
+    {!isLast && <S.PaginationLink to={nextPage} cover direction="right" bg="#16202c" duration={0.6}>próxima página →</S.PaginationLink>}
     
   </S.PaginationWrapper>
 )
