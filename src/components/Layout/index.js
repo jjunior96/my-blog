@@ -7,7 +7,6 @@ import MenuBar from '../MenuBar'
 import * as S from './styled'
 import GlobalStyles from "../../styles/global"
 
-
 const Layout = ({ children }) => {
   return (
     <S.LayoutWrapper>
