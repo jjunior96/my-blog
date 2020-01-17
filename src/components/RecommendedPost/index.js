@@ -1,7 +1,7 @@
 import React from 'react'
 import propTypes from 'prop-types'
 
-import * as S from './style'
+import * as S from './styled'
 
 const RecommnendedPosts = ({ next, previous }) => (
   <S.RecommnendedWrapper>

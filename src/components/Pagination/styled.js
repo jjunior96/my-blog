@@ -1,4 +1,5 @@
 import styled from 'styled-components';
+import media from 'styled-media-query'
 import { Link } from 'gatsby';
 
 export const PaginationWrapper = styled.section`
@@ -9,6 +10,10 @@ export const PaginationWrapper = styled.section`
   padding: 1.5rem 3rem;
   justify-content: space-between;
 
+  ${media.lessThan("large")`
+    font-size: .8rem;
+    padding: 1rem;
+  `}
 
 `;
 
