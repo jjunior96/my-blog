@@ -22,7 +22,6 @@ module.exports = {
         path: `${__dirname}/static/assets/img`,
       },
     },
-    // Config filesystem
     {
       resolve: `gatsby-source-filesystem`,
       options: {
@@ -30,7 +29,6 @@ module.exports = {
         path: `${__dirname}/src/images`,
       },
     },
-    
     {
       resolve: `gatsby-source-filesystem`,
       options: {
