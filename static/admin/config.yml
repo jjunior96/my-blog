@@ -1,0 +1,50 @@
+backend:
+  name: github
+  repo: jjunior96/my-blog
+  branch: master
+  site_domain: https://alvesjunior.netlify.com/
+
+publish_mode: editorial_workflow
+media_folder: 'static/assets/img'
+public_folder: 'assets/img'
+
+collections:
+  - name: 'posts'
+    label: 'Posts'
+    folder: 'posts'
+    create: true
+    slug: '{{year}}-{{month}}-{{day}}-{{slug}}'
+    fields:
+      # - { label: 'Layout', name: 'layout', widget: 'hidden', defaul: 'blog' }
+      - {
+          label: 'Date',
+          name: 'date',
+          widget: 'datetime',
+          format: ' YYYY-MM-DD hh:mm:ss',
+        }
+      - { label: 'Title', name: 'title', widget: 'string' }
+      - { label: 'Description', name: 'description', widget: 'string' }
+      - {
+          label: 'Category',
+          name: 'category',
+          widget: 'select',
+          options:
+            ['css', 'js', 'html', 'reactjs', 'react native', 'dev', 'misc'],
+        }
+      - {
+          label: 'Background',
+          name: 'background',
+          widget: 'select',
+          options:
+            [
+              { label: 'CSS', value: '#2DA0C3' },
+              { label: 'JS', value: '#D6BA32' },
+              { label: 'HTML', value: '#EB7728' },
+              { label: 'React JS', value: '#7D669E' },
+              { label: 'React Native', value: '#7159C1' },
+              { label: 'Dev', value: '#637a91' },
+              { label: 'Misc', value: '#7AAB13' },
+            ],
+        }
+      - { label: 'image', name: 'thumbnail', widget: 'image', required: false }
+      - { label: 'Body', name: 'body', widget: 'markdown' }
