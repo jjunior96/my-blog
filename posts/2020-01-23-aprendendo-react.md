@@ -1,5 +1,5 @@
 ---
-date: 2018-02-13 05:54:23
+date: 2020-01-23 12:04:23
 title: Aprendendo React
 description: Meu inicio com React
 category: dev
